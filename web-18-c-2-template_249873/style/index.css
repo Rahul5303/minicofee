@@ -1,0 +1,24 @@
+#navbar{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+
+}
+
+h3{
+    color: blue;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+#menu img{
+    height: 300px;
+    width: 80%;
+
+}
